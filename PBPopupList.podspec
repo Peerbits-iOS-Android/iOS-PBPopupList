@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBPopupList"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.platform     = :ios
   s.summary      = "PBPopup List view."
   s.description		= "This PBPopup List is to overcome the loss of usability and user experience due to the custom list view. Display list of data in your view controller with search option. You can display list of zipcode, Country list, State list, Category list, etc"
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.author             = { "Peerbits" => "info@peerbits.com" }
   s.social_media_url   = "https://twitter.com/Peerbits"
   
-  s.source       = { :git => "https://github.com/Peerbits/PBPopupList.git", :tag => "#{s.version}" }
-  s.source_files  = "PBPopupList", "PBPopupList/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/Peerbits/PBPopupList.git", :tag => "1.0.1" }
+  s.source_files  = "PBPopupList", "PBPopupList/**/*.{h,m,swift}"
   
   #Or just: s.author    = "Shahabuddin"
   #s.authors            = { "Shahabuddin" => "Shahbuddin@peerbits.com" }
