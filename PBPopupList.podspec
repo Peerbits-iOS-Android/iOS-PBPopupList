@@ -8,23 +8,30 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "PBPopupList"
-  s.version      = "1.0.1"
-  s.platform     = :ios
-  s.summary      = "PBPopup List view."
-  s.description		= "This PBPopup List is to overcome the loss of usability and user experience due to the custom list view. Display list of data in your view controller with search option. You can display list of zipcode, Country list, State list, Category list, etc"
-  s.homepage     	= "https://www.peerbits.com/"
+  s.name        		= "PBPopupList"
+  s.version      		= "1.0.1"
+  s.summary      		= "PBPopup List view."
+  s.description			= "This PBPopup List is to overcome the loss of usability and user experience due to the custom list view. Display list of data in your view controller with search option. You can display list of zipcode, Country list, State list, Category list, etc"
   
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Peerbits" => "info@peerbits.com" }
-  s.social_media_url   = "https://twitter.com/Peerbits"
+  s.homepage     		= "https://github.com/Peerbits/PBPopupList/"
+  s.screenshots 		= "https://github.com/Peerbits/PBPopupList/blob/master/Screenshots/1.png?raw=true", "https://github.com/Peerbits/PBPopupList/blob/master/Screenshots/2.png?raw=true"
   
-<<<<<<< HEAD
-  s.source       = { :git => "https://github.com/Peerbits/PBPopupList.git", :tag => "1.0.1" }
-=======
-  s.source       = { :git => "https://github.com/Peerbits/PBPopupList.git", :tag => "#{s.version}" }
->>>>>>> e87ed5495bb799be11e59ce85f6ede3ec26f66b0
-  s.source_files  = "PBPopupList", "PBPopupList/**/*.{h,m,swift}"
+  s.license      		= { :type => "MIT", :file => "LICENSE" }
+  s.author          	= { "Peerbits" => "info@peerbits.com" }
+  s.social_media_url   	= "https://twitter.com/Peerbits"
+
+  s.platform     		= :ios
+  s.source = {
+    :git => "https://github.com/Peerbits/PBPopupList.git",
+    :tag => "v#{s.version.to_s}"
+  }
+  s.source_files  		= "PBPopupList", "PBPopupList/**/*.{h,m}"
+
+  #s.source       		= { :git => "https://github.com/Peerbits/PBPopupList.git", :tag => "1.0.1" }
+  
+  s.swift_version 		= '4.2'
+  s.requires_arc 		= true
+
   
   #Or just: s.author    = "Shahabuddin"
   #s.authors            = { "Shahabuddin" => "Shahbuddin@peerbits.com" }
