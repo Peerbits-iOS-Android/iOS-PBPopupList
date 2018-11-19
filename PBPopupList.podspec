@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     		= :ios
   s.source = {
-    :git => "https://github.com/Peerbits/PBPopupList.git",:branch => "master",
+    :git => "https://github.com/Peerbits/PBPopupList.git",
     :tag => "v#{s.version.to_s}"
   }
   s.source_files  		= "PBPopupList", "PBPopupList/**/*.{h,m}"
