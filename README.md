@@ -24,7 +24,7 @@ To install [CocoaPods](http://www.cocoapods.org), run `sudo gem install cocoapod
 
 Use [CocoaPods](http://www.cocoapods.org).
 
-1. Add `pod 'PBPopupList'` to your *Podfile*.
+1. Add `pod 'PBPopupList', :git => 'https://github.com/Peerbits/PBPopupList.git'` to your *Podfile*.
 2. Install the pod(s) by running `pod install`.
 3. Add `import PBPopupList` in the .swift files where you want to use it
 
